@@ -1,7 +1,9 @@
-var inputBox = document.querySelector("#input-box");
-var listContainer = document.querySelector("#list-container");
+
 
 function addTask(){
+    var inputBox = document.querySelector("#input-box");
+    var listContainer = document.querySelector("#list-container");
+    
     let added = false;
     if(inputBox.value === '') {
         alert("Debes escribir algo"); // You must write something
