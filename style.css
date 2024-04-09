@@ -109,3 +109,7 @@ ul li span {
 ul li span:hover {
     background: #edeef0;
 }
+
+body{
+    overflow-x: hidden;
+}

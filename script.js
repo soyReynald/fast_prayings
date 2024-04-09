@@ -1,5 +1,3 @@
-
-
 function addTask(){
     var inputBox = document.querySelector("#input-box");
     var listContainer = document.querySelector("#list-container");
@@ -26,18 +24,14 @@ function addTask(){
                 div.style.display = "none";
             }
         }
-
         var liToCheck = document.getElementsByTagName("li");
         for (i = 0; i < liToCheck.length; i++) {
             liToCheck[i].onclick = function () {
                 this.classList.add("checked");            
             }
         }
-        
     }
     if (added === true) {
-        inputBox = '';
+        inputBox.value = '';
     }
-
-    
 }
