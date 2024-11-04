@@ -106,10 +106,11 @@ function CreateQuestionsItems() {
     setLocalStorage();
   
     updateText.innerText = questionValue.value;
-    addUpdate.setAttribute("onclick", "CreateToDoItems()");
-    addUpdate.setAttribute("src", "./img/edit_icon.png");
+    addUpdate.setAttribute("onclick", "CreateQuestionsItems()");
+    addUpdate.setAttribute("src", "./img/praying_icon.jpeg");
     questionValue.value = "";
     setAlertMessage("Todo item Updated Successfully!");
+    
   }
   function DeleteQuestionsItems(e) {
     let deleteValue =
