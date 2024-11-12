@@ -161,8 +161,21 @@ function CreateQuestionsItems() {
       questionAlert.classList.add("toggleMe");
     }, 1000);
   }
-
+ 
   function setLocalStorage() {
     localStorage.setItem("question-list", JSON.stringify(question));
   }
   ReadQuestionItems();
+
+  if (document.querySelector("iframe").innerHTML == false) {
+    document.querySelector("iframe").remove(); 
+
+    let img = document.createElement("li");
+    const imgToInsert = `<img class="jesus-teaching" src="img/jesus_teaching.png" width="280"/>`;
+    img.innerHTML = imgToInsert;
+    document.querySelector("#praying-frame").appendChild(img);
+    document.querySelector(".jesus-teaching").style.marginTop = "10%";
+    document.querySelector(".jesus-teaching").style.marginLeft = "auto";
+    document.querySelector(".jesus-teaching").style.marginRight = "auto";
+    document.querySelector(".jesus-teaching").style.marginBottom = "5%";
+  }
