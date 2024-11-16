@@ -171,7 +171,7 @@ function CreateQuestionsItems() {
     document.querySelector("iframe").remove(); 
 
     let img = document.createElement("li");
-    const imgToInsert = `<img class="jesus-teaching" src="img/jesus_teaching.png" width="280"/>`;
+    const imgToInsert = `<img class="jesus-teaching" src="img/jesus_teaching.jpg" width="280"/>`;
     img.innerHTML = imgToInsert;
     document.querySelector("#praying-frame").appendChild(img);
     document.querySelector(".jesus-teaching").style.marginTop = "10%";
