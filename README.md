@@ -1,2 +1,7 @@
-# todo_list_on_js
-From a tutorial to the UNIVERSITY.
+# From a Todo List TUTORIAL
+To the use of Adonai.
+
+Because:
+
+The city bless the one who shares the bread. But curses the one who just hides it.
+— Proverbs.
