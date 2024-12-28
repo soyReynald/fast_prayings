@@ -1,4 +1,4 @@
-# From a Todo List TUTORIAL
+# Proverbs 11:26 - NVI
 To the use of Adonai.
 
 Because:
