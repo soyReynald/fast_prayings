@@ -172,9 +172,9 @@ function CreateQuestionsItems() {
 
     let img = document.createElement("li");
     const ToInsert = `<iframe width="420" height="315"
-    src="https://www.youtube.com/watch?v=ftKFYdD-Zzw"
+    src="https://www.youtube.com/watch?v=ftKFYdD-Zzw">
     </iframe>`;
-    img.innerHTML = imgToInsert;
+    img.innerHTML = ToInsert;
     document.querySelector("#praying-frame").appendChild(img);
     document.querySelector(".jesus-teaching").style.marginTop = "10%";
     document.querySelector(".jesus-teaching").style.marginLeft = "auto";
